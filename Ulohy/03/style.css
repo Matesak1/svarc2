@@ -1,1 +1,8 @@
-
+.heads {
+h1 {
+  background-color: black;
+  color: white;
+}
+span {
+  background-color: rgb(255 255 255 / 50%);
+}
