@@ -1,0 +1,25 @@
+.box3{
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.box2{
+    padding: 20px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    display: flex;
+}
+.box1{
+    border-color: red;
+    border-style:double;
+    border-width: 20px;
+    padding: 20px;
+    background-color: gray;
+    color: darkblue;
+    align-items: center;
+    display: flex;
+}
