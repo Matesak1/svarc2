@@ -1,0 +1,27 @@
+.game-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 60px); 
+    grid-template-rows: repeat(10, 60px);
+    gap: 5px;
+    margin: 20px auto; 
+    width: fit-content;
+}
+.card-button {
+    width: 60px;
+    height: 60px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    background-color: #f0f0f0;
+    border: 1px solid #aaa;
+    color: black;
+    font-style: initial;
+}
+
+.empty-cell {
+    visibility: hidden; 
+}
+.back{
+    background-color: black;
+    color: white;
+}
